@@ -7,7 +7,7 @@ import history from './services/history';
 function App() {
   return (
     <Router history={history}>
-      <Routes />;
+      <Routes />
     </Router>
   );
 }
