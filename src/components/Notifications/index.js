@@ -40,6 +40,8 @@ function Notifications() {
 
       setNotifications(data);
     }
+
+    loadNotifications();
   }, []);
 
   function handleToggleVisible() {
